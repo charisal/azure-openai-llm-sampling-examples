@@ -2,6 +2,9 @@
 
 This project demonstrates the core sampling techniques used in language models and text generation systems. It shows how **temperature**, **top-k**, and **top-p** parameters affect the randomness and diversity of token selection during text generation.
 
+👉 Full blog post explanation:
+https://serkanaytekin.com/?p=134
+
 ## 🎯 What This Does
 
 The program simulates the token sampling process that happens inside language models like GPT, Claude, or other transformer-based systems. It takes a set of candidate words with their logits (raw model outputs) and applies different sampling strategies to select the next token.
